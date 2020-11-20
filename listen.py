@@ -10,4 +10,4 @@ print(f"serial_name = {ser.name}")         # check which port was really used
 
 while 1:
     #ser.write(b'hello')     # write a string
-    print(str(ser.readline()))             # close port
+    print(str(ser.readline()))   
